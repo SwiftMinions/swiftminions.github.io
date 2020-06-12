@@ -1,0 +1,6 @@
+# SwiftMinions
+
+
+
+## Installation
+
