@@ -1,8 +1,7 @@
 ---
 layout: post
 title: First release
-subtitle: subtitle
-tags: [test]
+subtitle: new subtitle
 comments: true
 ---
 
