@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>String Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/String" class="dashAnchor"></a>
+    <a title="String Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">SwiftMinions 5.0.3 Docs</a> (85% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">SwiftMinions Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        String Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/SMAttributeStringBuilder.html">SMAttributeStringBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMConfig.html">SMConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMConfig/AnimationDuration.html">– AnimationDuration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMHelper.html">SMHelper</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/BinaryInteger.html">BinaryInteger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGFloat.html">CGFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGRect.html">CGRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGSize.html">CGSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CLLocation.html">CLLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Collection.html">Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Data.html">Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Decimal.html">Decimal</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/FileManager.html">FileManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Float.html">Float</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/FloatingPoint.html">FloatingPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/JSONDecoder.html">JSONDecoder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/JSONDecoder/KeyDecodingStrategy.html">– KeyDecodingStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSAttributedString.html">NSAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Thread.html">Thread</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/TimeInterval.html">TimeInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton.html">UIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UICollectionView.html">UICollectionView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIEdgeInsets.html">UIEdgeInsets</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage/ImageMode.html">– ImageMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UILabel.html">UILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UINavigationController.html">UINavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScreen.html">UIScreen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScrollView.html">UIScrollView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIStackView.html">UIStackView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITableView.html">UITableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView/AnimationType.html">– AnimationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIWindow.html">UIWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UserDefaults.html">UserDefaults</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:12SwiftMinions5ifLet5value7success4failq_xSg_q_xXEq_yXEtr0_lF">ifLet(value:success:fail:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CustomCodingKey.html">CustomCodingKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SafeCollectionable.html">SafeCollectionable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SafeRangeable.html">SafeRangeable</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>String</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">String</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE10isNotEmptySbvp"></a>
+                    <a name="//apple_ref/swift/Property/isNotEmpty" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE10isNotEmptySbvp">isNotEmpty</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Helper property for logic.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isNotEmpty</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE6toDate6format10Foundation0D0VSgSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/toDate(format:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE6toDate6format10Foundation0D0VSgSS_tF">toDate(format:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convert String into Date type.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>將字串轉換為日期類型</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="s">"2020-11-24 05:30:30"</span><span class="o">.</span><span class="nf">todate</span><span class="p">()</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">toDate</span><span class="p">(</span><span class="nv">format</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="kt"><a href="../Classes/SMConfig.html">SMConfig</a></span><span class="o">.</span><span class="n">dateFormatString</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>format</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>string format. (default is SMConfig.dateFormatString)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>New date with given format. Retrun nil if format error.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE17containsPredicate3keySbSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/containsPredicate(key:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE17containsPredicate3keySbSS_tF">containsPredicate(key:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Helper method to predicate string. Ignore case to check self is contains key.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>NSPredicate 的輔助方法，忽略大小寫的方式檢查源字串是否包含 key。</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="s">"SwiftMinions"</span><span class="o">.</span><span class="nf">containsPredicate</span><span class="p">(</span><span class="nv">key</span><span class="p">:</span> <span class="s">"swiftminions"</span><span class="p">)</span>
+<span class="c1">// true</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">containsPredicate</span><span class="p">(</span><span class="nv">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Bool</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE16parseQueryStringSDyS2SGyF"></a>
+                    <a name="//apple_ref/swift/Method/parseQueryString()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE16parseQueryStringSDyS2SGyF">parseQueryString()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Parse query string.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>刪除類似價格字串中的小數點。 例如：1000.000至1000</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">query</span> <span class="o">=</span> <span class="s">"a=1&amp;b=2&amp;c=3"</span>
+<span class="n">query</span><span class="o">.</span><span class="nf">parseQueryString</span><span class="p">()</span>
+<span class="c1">// ["a": "1", "b": "2", "c": "3"]</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">parseQueryString</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE13removeDecimalSSyF"></a>
+                    <a name="//apple_ref/swift/Method/removeDecimal()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE13removeDecimalSSyF">removeDecimal()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove decimal point for price-like strings. Ex: 1000.000 to 1000</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>刪除類似價格字串中的小數點。 例如：1000.000至1000</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="s">"1000.000"</span><span class="o">.</span><span class="nf">removeDecimal</span><span class="p">()</span>
+<span class="c1">// "1000"</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">removeDecimal</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE32getNSAttributedStringFromHTMLTagSo0dE0CSgyF"></a>
+                    <a name="//apple_ref/swift/Method/getNSAttributedStringFromHTMLTag()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE32getNSAttributedStringFromHTMLTagSo0dE0CSgyF">getNSAttributedStringFromHTMLTag()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get NSAttributedString from HTML-string.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>將 HTML-string 轉換成 NSAttributedString</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getNSAttributedStringFromHTMLTag</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSAttributedString</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>NSAttributedString? (return nil if not HTML-string)</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE4size8withFontSo6CGSizeVSo6UIFontC_tF"></a>
+                    <a name="//apple_ref/swift/Method/size(withFont:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE4size8withFontSo6CGSizeVSo6UIFontC_tF">size(withFont:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get string size via given UIFont. Return CGSize includes height and width.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>取得當前 String 的大小，回傳 CGSize 格式，可以再透過 CGSize 拿到 height 跟 width</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">text</span> <span class="o">=</span> <span class="s">"Some text"</span>
+<span class="k">let</span> <span class="nv">font</span> <span class="o">=</span> <span class="kt">UIFont</span><span class="o">.</span><span class="nf">systemFont</span><span class="p">(</span><span class="nv">ofSize</span><span class="p">:</span> <span class="mi">20</span><span class="p">)</span>
+<span class="k">let</span> <span class="nv">size</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="nf">size</span><span class="p">(</span><span class="nv">withFont</span><span class="p">:</span> <span class="n">font</span><span class="p">)</span>   <span class="c1">/// { w: 87.334, h: 23.867 }</span>
+<span class="n">size</span><span class="o">.</span><span class="n">height</span>                            <span class="c1">/// 23.8671875</span>
+<span class="n">size</span><span class="o">.</span><span class="n">width</span>                             <span class="c1">/// 87.333984375</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">size</span><span class="p">(</span><span class="n">withFont</span> <span class="nv">font</span><span class="p">:</span> <span class="kt">UIFont</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>font</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>UIFont class</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>CGSize</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE17calculateRectSize4font03maxE0So6CGSizeVSo6UIFontC_AFtF"></a>
+                    <a name="//apple_ref/swift/Method/calculateRectSize(font:maxSize:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE17calculateRectSize4font03maxE0So6CGSizeVSo6UIFontC_AFtF">calculateRectSize(font:<wbr>maxSize:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Calculate the size of string in a max rect.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>計算 String 在一個方框下的大小.</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">size</span><span class="p">:</span> <span class="kt">CGSize</span> <span class="o">=</span> <span class="s">"SwiftMinions"</span><span class="o">.</span><span class="nf">calculateRectSize</span><span class="p">(</span><span class="nv">font</span><span class="p">:</span> <span class="o">.</span><span class="nf">systemFont</span><span class="p">(</span><span class="nv">ofSize</span><span class="p">:</span> <span class="mi">20</span><span class="p">),</span> <span class="nv">maxSize</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">(</span><span class="nv">width</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="mi">200</span><span class="p">))</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">size</span><span class="p">)</span>
+</code></pre>
+
+<p>Parameter font: UIFont class
+Parameter maxSize: CGSize class</p>
+
+<p>Returns: CGSize</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">calculateRectSize</span><span class="p">(</span><span class="nv">font</span><span class="p">:</span> <span class="kt">UIFont</span><span class="p">,</span> <span class="nv">maxSize</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE5toIntSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/toInt" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE5toIntSiSgvp">toInt</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">toInt</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE10toIntValueSivp"></a>
+                    <a name="//apple_ref/swift/Property/toIntValue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE10toIntValueSivp">toIntValue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">toIntValue</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE13base64Encoded8encodingSSSgSS10FoundationE8EncodingV_tF"></a>
+                    <a name="//apple_ref/swift/Method/base64Encoded(encoding:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE13base64Encoded8encodingSSSgSS10FoundationE8EncodingV_tF">base64Encoded(encoding:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>String to base64.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>將字串編碼成 base64</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code>   <span class="s">"SwiftMinions"</span><span class="o">.</span><span class="nf">base64Encoded</span><span class="p">()</span>
+   <span class="c1">// "U3dpZnRNaW5pb25z"</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">base64Encoded</span><span class="p">(</span><span class="nv">encoding</span><span class="p">:</span> <span class="kt">String</span><span class="o">.</span><span class="kt">Encoding</span> <span class="o">=</span> <span class="o">.</span><span class="n">utf8</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>encoding</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String.Encoding.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A base64Encoded string.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE13base64Decoded8decoding7optionsSSSgSS10FoundationE8EncodingV_So27NSDataBase64DecodingOptionsVtF"></a>
+                    <a name="//apple_ref/swift/Method/base64Decoded(decoding:options:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE13base64Decoded8decoding7optionsSSSgSS10FoundationE8EncodingV_So27NSDataBase64DecodingOptionsVtF">base64Decoded(decoding:<wbr>options:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Base64 to string.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>將字串用 base64 解碼</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code>   <span class="s">"U3dpZnRNaW5pb25z"</span><span class="o">.</span><span class="nf">base64Encoded</span><span class="p">()</span>
+   <span class="c1">// "SwiftMinions"</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">base64Decoded</span><span class="p">(</span><span class="nv">decoding</span><span class="p">:</span> <span class="kt">String</span><span class="o">.</span><span class="kt">Encoding</span> <span class="o">=</span> <span class="o">.</span><span class="n">utf8</span><span class="p">,</span>
+                   <span class="nv">options</span><span class="p">:</span> <span class="kt">Data</span><span class="o">.</span><span class="kt">Base64DecodingOptions</span> <span class="o">=</span> <span class="o">.</span><span class="n">ignoreUnknownCharacters</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>decoding</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String.Dncoding. (default .utf8)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Data.Base64DecodingOptions. (default .ignoreUnknownCharacters)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A string decoding with base64.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Regular%20expression"></a>
+                <a name="//apple_ref/swift/Section/Regular expression" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Regular%20expression"></a>
+                  <h3 class="section-name"><p>Regular expression</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE10isValidate9withRegexSbSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/isValidate(withRegex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE10isValidate9withRegexSbSS_tF">isValidate(withRegex:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>String is validate with regular expression.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>字串是否匹配正規表示式。</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code>   <span class="k">let</span> <span class="nv">regex</span> <span class="o">=</span> <span class="err">#</span><span class="s">"^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,64}$"</span><span class="err">#</span>
+   <span class="k">let</span> <span class="nv">result</span> <span class="o">=</span> <span class="s">"minions@swiftminions.com"</span><span class="o">.</span><span class="nf">isValidate</span><span class="p">(</span><span class="nv">withRegex</span><span class="p">:</span> <span class="n">regex</span><span class="p">)</span>
+   <span class="c1">// result -&gt; true</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isValidate</span><span class="p">(</span><span class="n">withRegex</span> <span class="nv">regex</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>withRegex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>regular expression.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Bool.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE17regularFirstMatch9withRegex7optionsSSSgSS_So26NSRegularExpressionOptionsVtF"></a>
+                    <a name="//apple_ref/swift/Method/regularFirstMatch(withRegex:options:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE17regularFirstMatch9withRegex7optionsSSSgSS_So26NSRegularExpressionOptionsVtF">regularFirstMatch(withRegex:<wbr>options:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>First match with regular expression. Return nil if not found.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>找到第一個匹配正規表示式的字串，如果找不到則回傳 nil。</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code>   <span class="k">let</span> <span class="nv">regex</span> <span class="o">=</span> <span class="err">#</span><span class="s">"^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,64}$"</span><span class="err">#</span>
+   <span class="k">let</span> <span class="nv">result</span> <span class="o">=</span> <span class="s">"minions@swiftminions.com"</span><span class="o">.</span><span class="nf">regularFirstMatch</span><span class="p">(</span><span class="nv">withRegex</span><span class="p">:</span> <span class="n">regex</span><span class="p">)</span>
+   <span class="c1">// result-&gt; "minions@swiftminions.com"</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">regularFirstMatch</span><span class="p">(</span>
+    <span class="n">withRegex</span> <span class="nv">regexString</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+    <span class="nv">options</span><span class="p">:</span> <span class="kt">NSRegularExpression</span><span class="o">.</span><span class="kt">Options</span> <span class="o">=</span> <span class="kt"><a href="../Classes/SMConfig.html">SMConfig</a></span><span class="o">.</span><span class="n">regexOptions</span><span class="p">)</span>
+    <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>withRegex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>regular expression.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>NSRegularExpression.Options. (default is SMConfig.regexOptions)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>String?</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE14regularMatches9withRegex7optionsSaySSGSS_So26NSRegularExpressionOptionsVtF"></a>
+                    <a name="//apple_ref/swift/Method/regularMatches(withRegex:options:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE14regularMatches9withRegex7optionsSaySSGSS_So26NSRegularExpressionOptionsVtF">regularMatches(withRegex:<wbr>options:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Find all matches with regular expression. Return empty array if not found.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>找到所有匹配正規表示式的字串，如果找不到則回傳空陣列。</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code>   <span class="k">let</span> <span class="nv">regex</span> <span class="o">=</span> <span class="s">"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,64}"</span>
+   <span class="k">let</span> <span class="nv">results</span> <span class="o">=</span> <span class="s">"""
+   minions@swiftminions.com
+   minions2@sdf.com
+   """</span><span class="o">.</span><span class="nf">regularMatches</span><span class="p">(</span><span class="nv">withRegex</span><span class="p">:</span> <span class="n">regex</span><span class="p">)</span>
+   <span class="c1">// results -&gt; ["minions@swiftminions.com", "minions2@sdf.com"]</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">regularMatches</span><span class="p">(</span>
+    <span class="n">withRegex</span> <span class="nv">regex</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+    <span class="nv">options</span><span class="p">:</span> <span class="kt">NSRegularExpression</span><span class="o">.</span><span class="kt">Options</span> <span class="o">=</span> <span class="kt"><a href="../Classes/SMConfig.html">SMConfig</a></span><span class="o">.</span><span class="n">regexOptions</span><span class="p">)</span>
+    <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>withRegex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>regular expression.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>NSRegularExpression.Options. (default is SMConfig.regexOptions)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>[String]</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE14regularReplace9withRegex7content7optionsS2S_SSSo26NSRegularExpressionOptionsVtF"></a>
+                    <a name="//apple_ref/swift/Method/regularReplace(withRegex:content:options:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE14regularReplace9withRegex7content7optionsS2S_SSSo26NSRegularExpressionOptionsVtF">regularReplace(withRegex:<wbr>content:<wbr>options:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Replace string with regular expression and content. It will return a new string.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>用正規表示式取代字串，將返回一個新的字串</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code>   <span class="k">let</span> <span class="nv">regex</span> <span class="o">=</span> <span class="err">#</span><span class="s">"(</span><span class="se">\()</span><span class="s">([0][0-9]{1,2})(</span><span class="err">\</span><span class="s">))([</span><span class="err">\</span><span class="s">d]{9})"</span><span class="err">#</span>
+   <span class="k">let</span> <span class="nv">phone</span> <span class="o">=</span> <span class="s">"(02)123456789"</span>
+   <span class="k">let</span> <span class="nv">newPhone</span> <span class="o">=</span> <span class="n">phone</span><span class="o">.</span><span class="nf">regularReplace</span><span class="p">(</span><span class="nv">withRegex</span><span class="p">:</span> <span class="n">regex</span><span class="p">,</span> <span class="nv">content</span><span class="p">:</span> <span class="s">"$2-$4"</span><span class="p">)</span>
+   <span class="c1">// newPhone -&gt; 02-123456789</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">regularReplace</span><span class="p">(</span>
+    <span class="n">withRegex</span> <span class="nv">regex</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+    <span class="nv">content</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+    <span class="nv">options</span><span class="p">:</span> <span class="kt">NSRegularExpression</span><span class="o">.</span><span class="kt">Options</span> <span class="o">=</span> <span class="kt"><a href="../Classes/SMConfig.html">SMConfig</a></span><span class="o">.</span><span class="n">regexOptions</span><span class="p">)</span>
+    <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>withRegex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>regular expression.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>options</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>NSRegularExpression.Options. (default is SMConfig.regexOptions)</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>[String]</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Hex%20helper%20method"></a>
+                <a name="//apple_ref/swift/Section/Hex helper method" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Hex%20helper%20method"></a>
+                  <h3 class="section-name"><p>Hex helper method</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE8hexToIntSiyF"></a>
+                    <a name="//apple_ref/swift/Method/hexToInt()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE8hexToIntSiyF">hexToInt()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Hex string to Int.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>16 進位文字轉 Int</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">hexString</span> <span class="o">=</span> <span class="s">"FF"</span>
+<span class="k">let</span> <span class="nv">int</span> <span class="o">=</span> <span class="n">hexString</span><span class="o">.</span><span class="nf">hexToInt</span><span class="p">()</span>
+<span class="c1">// 255</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">hexToInt</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE11hexToBinarySSyF"></a>
+                    <a name="//apple_ref/swift/Method/hexToBinary()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE11hexToBinarySSyF">hexToBinary()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Hex string to brnary string.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>16 進位文字轉 Binary 文字</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">hexString</span> <span class="o">=</span> <span class="s">"FF"</span>
+<span class="k">let</span> <span class="nv">binaryString</span> <span class="o">=</span> <span class="n">hexString</span><span class="o">.</span><span class="nf">hexToBinary</span><span class="p">()</span>
+<span class="c1">// 11111111</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">hexToBinary</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE12decimalToHex12isUppercasedSSSb_tF"></a>
+                    <a name="//apple_ref/swift/Method/decimalToHex(isUppercased:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE12decimalToHex12isUppercasedSSSb_tF">decimalToHex(isUppercased:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Int string to hex string.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>10 進位文字轉 16 進位文字</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">decimalString</span> <span class="o">=</span> <span class="s">"255"</span>
+<span class="k">let</span> <span class="nv">hexString</span> <span class="o">=</span> <span class="n">decimalString</span><span class="o">.</span><span class="nf">decimalToHex</span><span class="p">()</span>
+<span class="c1">// FF</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">decimalToHex</span><span class="p">(</span><span class="nv">isUppercased</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE15decimalToBinarySSyF"></a>
+                    <a name="//apple_ref/swift/Method/decimalToBinary()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE15decimalToBinarySSyF">decimalToBinary()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Decimal string to binary string.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>10 進位文字轉 Binary 文字</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">decimalString</span> <span class="o">=</span> <span class="s">"255"</span>
+<span class="k">let</span> <span class="nv">binaryString</span> <span class="o">=</span> <span class="n">decimalString</span><span class="o">.</span><span class="nf">decimalToBinary</span><span class="p">()</span>
+<span class="c1">// 11111111</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">decimalToBinary</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE11binaryToIntSiyF"></a>
+                    <a name="//apple_ref/swift/Method/binaryToInt()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE11binaryToIntSiyF">binaryToInt()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Binary string to Int.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>Binary 文字轉 10 進位</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">binaryString</span> <span class="o">=</span> <span class="s">"11111111"</span>
+<span class="k">let</span> <span class="nv">decimal</span> <span class="o">=</span> <span class="n">binaryString</span><span class="o">.</span><span class="nf">binaryToInt</span><span class="p">()</span>
+<span class="c1">// 255</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">binaryToInt</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE11binaryToHex12isUppercasedSSSb_tF"></a>
+                    <a name="//apple_ref/swift/Method/binaryToHex(isUppercased:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE11binaryToHex12isUppercasedSSSb_tF">binaryToHex(isUppercased:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Binary string to hex string.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>Binary 文字轉 16 進位文字</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">binaryString</span> <span class="o">=</span> <span class="s">"11111111"</span>
+<span class="k">let</span> <span class="nv">hexString</span> <span class="o">=</span> <span class="n">binaryString</span><span class="o">.</span><span class="nf">binaryToHex</span><span class="p">()</span>
+<span class="c1">// FF</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">binaryToHex</span><span class="p">(</span><span class="nv">isUppercased</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE10hexToFloatSfyF"></a>
+                    <a name="//apple_ref/swift/Method/hexToFloat()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE10hexToFloatSfyF">hexToFloat()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Hex string to Float.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>16 進位文字轉 Float</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">hexString</span> <span class="o">=</span> <span class="s">"3D512EE0"</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">hexString</span><span class="o">.</span><span class="nf">hexToFloat</span><span class="p">())</span>
+<span class="c1">// 0.051070094</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">hexToFloat</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Float</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE9hexToData10Foundation0E0VyF"></a>
+                    <a name="//apple_ref/swift/Method/hexToData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE9hexToData10Foundation0E0VyF">hexToData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Hex string to Data.</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>16 進位文字轉 Data</p>
+<h3 id='use-example' class='heading'>Use example</h3>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">data</span> <span class="o">=</span> <span class="s">"FF"</span><span class="o">.</span><span class="nf">hexToData</span><span class="p">()</span>
+<span class="k">let</span> <span class="nv">hexString</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">map</span> <span class="p">{</span> <span class="kt">String</span><span class="p">(</span><span class="nv">format</span><span class="p">:</span> <span class="s">"%02x"</span><span class="p">,</span> <span class="nv">$0</span><span class="p">)}</span><span class="o">.</span><span class="nf">joined</span><span class="p">(</span><span class="nv">separator</span><span class="p">:</span> <span class="s">""</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">hexString</span><span class="p">)</span>
+<span class="c1">// ff</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">hexToData</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Data</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Safely%20to%20get%20string%20by%20range"></a>
+                <a name="//apple_ref/swift/Section/Safely to get string by range" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Safely%20to%20get%20string%20by%20range"></a>
+                  <h3 class="section-name"><p>Safely to get string by range</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS12SwiftMinionsE4safeAA13SafeRangeableVySSGvp"></a>
+                    <a name="//apple_ref/swift/Property/safe" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS12SwiftMinionsE4safeAA13SafeRangeableVySSGvp">safe</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets a namespace holder for SafeRangeable compatible types.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">safe</span><span class="p">:</span> <span class="kt"><a href="../Structs/SafeRangeable.html">SafeRangeable</a></span><span class="o">&lt;</span><span class="p">`</span><span class="nv">Self</span><span class="p">`</span><span class="o">&gt;</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://github.com/SwiftMinions" target="_blank" rel="external">SwiftMinions</a>. All rights reserved. (Last updated: 2020-06-14)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

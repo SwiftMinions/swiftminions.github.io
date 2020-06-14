@@ -1,0 +1,264 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/CoreGraphics/CGFloatExtensions.swift",
+      "line": 45,
+      "symbol": "CGFloat.intValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/Foundation/KeyDecodingStrategyExtensions.swift",
+      "line": 103,
+      "symbol": "CustomCodingKey",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/Foundation/KeyDecodingStrategyExtensions.swift",
+      "line": 120,
+      "symbol": "CustomCodingKey.init(stringValue:intValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/Foundation/ThreadExtensions.swift",
+      "line": 12,
+      "symbol": "Thread.main(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 16,
+      "symbol": "SMConfig.dateFormatter",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 18,
+      "symbol": "SMConfig.dateFormatString",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 20,
+      "symbol": "SMConfig.timeZone",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 22,
+      "symbol": "SMConfig.font",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 24,
+      "symbol": "SMConfig.calendar",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 26,
+      "symbol": "SMConfig.decoder",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 28,
+      "symbol": "SMConfig.stringEncoding",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 30,
+      "symbol": "SMConfig.cornerRadius",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 33,
+      "symbol": "SMConfig.keyWindow",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 35,
+      "symbol": "SMConfig.regexOptions",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 37,
+      "symbol": "SMConfig.AnimationDuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 39,
+      "symbol": "SMConfig.AnimationDuration.short",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 41,
+      "symbol": "SMConfig.AnimationDuration.middle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsConfig.swift",
+      "line": 43,
+      "symbol": "SMConfig.AnimationDuration.long",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/MinionsHelper.swift",
+      "line": 11,
+      "symbol": "SMHelper",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/SMAttributeStringBuilder.swift",
+      "line": 109,
+      "symbol": "SMAttributeStringBuilder.build()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/SwiftStandardLibrary/DoubleExtensions.swift",
+      "line": 44,
+      "symbol": "Double.cgfloatValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/SwiftStandardLibrary/FloatExtensions.swift",
+      "line": 44,
+      "symbol": "Float.cgfloatValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/SwiftStandardLibrary/IntExtensions.swift",
+      "line": 44,
+      "symbol": "Int.cgfloatValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/SwiftStandardLibrary/StringExtensions.swift",
+      "line": 175,
+      "symbol": "String.toInt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/SwiftStandardLibrary/StringExtensions.swift",
+      "line": 179,
+      "symbol": "String.toIntValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/UIKit/UIImageExtensions.swift",
+      "line": 13,
+      "symbol": "UIImage.ImageMode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/UIKit/UIImageExtensions.swift",
+      "line": 14,
+      "symbol": "UIImage.ImageMode.fill",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/UIKit/UIImageExtensions.swift",
+      "line": 14,
+      "symbol": "UIImage.ImageMode.fit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/UIKit/UIScrollViewExtensions.swift",
+      "line": 154,
+      "symbol": "UIScrollView.removeObserver()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/UIKit/UIViewExtensions.swift",
+      "line": 90,
+      "symbol": "UIView.AnimationType.Fade.in",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/UIKit/UIViewExtensions.swift",
+      "line": 91,
+      "symbol": "UIView.AnimationType.Fade.out",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/UIKit/UIViewExtensions.swift",
+      "line": 93,
+      "symbol": "UIView.AnimationType.fade(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/UIKit/UIViewExtensions.swift",
+      "line": 102,
+      "symbol": "UIView.AnimationType.ShakeOffsets.light",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/UIKit/UIViewExtensions.swift",
+      "line": 103,
+      "symbol": "UIView.AnimationType.ShakeOffsets.medium",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/UIKit/UIViewExtensions.swift",
+      "line": 104,
+      "symbol": "UIView.AnimationType.ShakeOffsets.heavy",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/UIKit/UIViewExtensions.swift",
+      "line": 105,
+      "symbol": "UIView.AnimationType.ShakeOffsets.custom(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ohlulu/Documents/myProject/SwiftMinions/Sources/SwiftMinions/UIKit/UIViewExtensions.swift",
+      "line": 107,
+      "symbol": "UIView.AnimationType.shake(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ohlulu/Documents/myProject/SwiftMinions"
+}
