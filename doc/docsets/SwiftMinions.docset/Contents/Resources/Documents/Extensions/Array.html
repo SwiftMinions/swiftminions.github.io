@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Array Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/Array" class="dashAnchor"></a>
+    <a title="Array Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">SwiftMinions 5.0.3 Docs</a> (85% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">SwiftMinions Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Array Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/SMAttributeStringBuilder.html">SMAttributeStringBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMConfig.html">SMConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMConfig/AnimationDuration.html">– AnimationDuration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SMHelper.html">SMHelper</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/BinaryInteger.html">BinaryInteger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGFloat.html">CGFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGRect.html">CGRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGSize.html">CGSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CLLocation.html">CLLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Collection.html">Collection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Data.html">Data</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Decimal.html">Decimal</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/FileManager.html">FileManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Float.html">Float</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/FloatingPoint.html">FloatingPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/JSONDecoder.html">JSONDecoder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/JSONDecoder/KeyDecodingStrategy.html">– KeyDecodingStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSAttributedString.html">NSAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Thread.html">Thread</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/TimeInterval.html">TimeInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIApplication.html">UIApplication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton.html">UIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UICollectionView.html">UICollectionView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIEdgeInsets.html">UIEdgeInsets</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage/ImageMode.html">– ImageMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UILabel.html">UILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UINavigationController.html">UINavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScreen.html">UIScreen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScrollView.html">UIScrollView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIStackView.html">UIStackView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITableView.html">UITableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView/AnimationType.html">– AnimationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIWindow.html">UIWindow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UserDefaults.html">UserDefaults</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:12SwiftMinions5ifLet5value7success4failq_xSg_q_xXEq_yXEtr0_lF">ifLet(value:success:fail:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/CustomCodingKey.html">CustomCodingKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SafeCollectionable.html">SafeCollectionable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SafeRangeable.html">SafeRangeable</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Array</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">Array</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa12SwiftMinionsE5shift4withSayxGSi_tF"></a>
+                    <a name="//apple_ref/swift/Method/shift(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa12SwiftMinionsE5shift4withSayxGSi_tF">shift(with:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Shift elements in array by index</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>將陣列裡的元素移動到 後綴(正數) or 前綴(負數)</p>
+<h2 id='usage-example' class='heading'>Usage Example:</h2>
+<pre class="highlight swift"><code><span class="k">var</span> <span class="nv">array</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+
+<span class="c1">// 移到後綴</span>
+<span class="n">array</span> <span class="o">=</span> <span class="n">array</span><span class="o">.</span><span class="nf">shift</span><span class="p">(</span><span class="nv">withDistance</span><span class="p">:</span> <span class="mi">3</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">array</span><span class="p">)</span> <span class="c1">// prints: [4, 5, 6, 7, 8, 9, 10, 1, 2, 3]</span>
+
+<span class="c1">// 移到前綴</span>
+<span class="n">array</span> <span class="o">=</span> <span class="n">array</span><span class="o">.</span><span class="nf">shift</span><span class="p">(</span><span class="nv">withDistance</span><span class="p">:</span> <span class="o">-</span><span class="mi">3</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">array</span><span class="p">)</span> <span class="c1">// prints: [8, 9, 10, 1, 2, 3, 4, 5, 6, 7]</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">shift</span><span class="p">(</span><span class="n">with</span> <span class="nv">distance</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">Element</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>distance</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>從左邊開始數, 要移動幾個目標</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>已將目標移動到後綴或前綴的陣列.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa12SwiftMinionsE12shiftInPlace4withySi_tF"></a>
+                    <a name="//apple_ref/swift/Method/shiftInPlace(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa12SwiftMinionsE12shiftInPlace4withySi_tF">shiftInPlace(with:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Shift elements in array by index</p>
+<h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>將陣列裡的元素移動到 後綴(正數) or 前綴(負數), 無回傳值</p>
+<h2 id='usage-example' class='heading'>Usage Example:</h2>
+<pre class="highlight swift"><code><span class="k">var</span> <span class="nv">array</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+<span class="c1">// 移到後綴</span>
+<span class="n">array</span><span class="o">.</span><span class="nf">shift</span><span class="p">(</span><span class="nv">withDistance</span><span class="p">:</span> <span class="mi">3</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">array</span><span class="p">)</span> <span class="c1">// prints: [4, 5, 6, 7, 8, 9, 10, 1, 2, 3]</span>
+
+<span class="c1">// 移到前綴</span>
+<span class="n">array</span><span class="o">.</span><span class="nf">shiftInPlace</span><span class="p">(</span><span class="nv">withDistance</span><span class="p">:</span> <span class="o">-</span><span class="mi">2</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">array</span><span class="p">)</span> <span class="c1">// prints: [9, 10, 1, 2, 3, 4, 5, 6, 7, 8]</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">mutating</span> <span class="kd">func</span> <span class="nf">shiftInPlace</span><span class="p">(</span><span class="n">with</span> <span class="nv">distance</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>distance</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>正數由陣列first, 負數由陣列last, 從左開始數要移動幾個目標</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:Sa12SwiftMinionsE9rearrange9fromIndex02toE0Sayqd__GSi_SitlF"></a>
+                    <a name="//apple_ref/swift/Method/rearrange(fromIndex:toIndex:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:Sa12SwiftMinionsE9rearrange9fromIndex02toE0Sayqd__GSi_SitlF">rearrange(fromIndex:<wbr>toIndex:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <h3 id='chinese-description' class='heading'>Chinese description</h3>
+
+<p>將陣列裡的元素移動到 指定的位子</p>
+<h2 id='usage-example' class='heading'>Usage Example:</h2>
+<pre class="highlight swift"><code><span class="k">var</span> <span class="nv">array</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+<span class="n">array</span> <span class="o">=</span> <span class="n">array</span><span class="o">.</span><span class="nf">rearrange</span><span class="p">(</span><span class="nv">fromIndex</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="nv">toIndex</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">array</span><span class="p">)</span> <span class="c1">// prints: [4, 1, 2, 3, 5, 6, 7, 8, 9, 10]</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="n">rearrange</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">fromIndex</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">toIndex</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Array</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fromIndex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>要移動的目標.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>toIndex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>要移動的目的地.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>已將目標移動完的陣列.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://github.com/SwiftMinions" target="_blank" rel="external">SwiftMinions</a>. All rights reserved. (Last updated: 2020-06-14)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
